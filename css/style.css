@@ -312,6 +312,7 @@ overflow:hidden;
     .sidebar #intro{
     font-size: 10px;
     display: flex;
+    text-align: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;

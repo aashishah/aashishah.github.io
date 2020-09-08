@@ -148,11 +148,11 @@ h2{
     letter-spacing: 3px;
 }
 
-.spacing:hover h1{
+/*.spacing:hover h1{
     transition: .3s ease;
     -webkit-text-stroke: 0.2px #EB5E28;
     color: transparent;
-}
+}*/
 /**SKILLS**/
 
 .skills {

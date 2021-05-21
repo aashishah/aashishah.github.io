@@ -5,177 +5,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
-      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,200&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
   </head>
-    <body class="container">
-       <div class="sidebar">
-           <div id="intro">
-            <img src="images/icon.jpg">
-               <h2>I am <span>Aashi Shah</span>.<br></h2>
-                <h3>Web Developer. Graphic Designer. Python Enthusiast.</h3>
-           </div>
-           <div id="nav-links">
-                <p><a href="images/Aashi%20Shah%20Resume.pdf">Download Resume</a></p>
-               <p><a href="graphicdes.html">Graphic Design Portfolio</a></p>
-           </div>
-           <div id="icons">
-               <a href="https://github.com/aashishah"><i class="fa fa-github"></i></a>
-               <a href="http://www.linkedin.com/in/aashi-shah"><i class="fa fa-linkedin"></i></a>
-               <a href="https://www.instagram.com/colorst_ash/"><i class="fa fa-instagram"></i></a>
+    <body>
+      <div id="container-top">
+            <div class="bar">
+               <img src="images/dots.svg" id="dots">
+              <button id="hamburger"><img src="images/hmenu.png"></button>
+              <div class="links">
+                  <a href="#">File</a>
+                  <a href="graphicdes.html">Designs</a>
+                  <a href="Aashi Shah Resume.pdf">Resume</a>
+              </div>
             </div>
-       </div>
-   <div class="content">
-    <div class="spacing">
-     <h1>About Me</h1>
-     <p>The first time I clicked compile and run on a "Hello World!" program in Java and watched the words appear on the screen was when fell in love with coding. Ever since then, the idea that you can use a computer and put in a few lines of code to get a desired output is something that has constantly amazed and inspired me.</p>
-         <br>
-         I carried that passion into taking up Computer Science as an undergraduate and combine it with my love for art and creativity to delve into web development. Now, I am passionate about building seamless, user-friendly web experiences. <br>I am currently learning web design and how to apply it into projects that I build. <br>
-         When I'm not coding/designing, I can be found reading or sketching.
-       </p>
-       <div class="quote">
-        "You may encounter defeats, but you must not be defeated. In fact, it may be necessary to encounter the defeats, so you can know who you are, what you can rise from and how you can still come out of it."
-           <br><div id="author">- Maya Angelou</div>
-       </div>
-    </div>
-       <div class="hr"></div>
-       <div class="spacing">
-       <h1>Skills</h1>
-       <div class="skills">
-           <div class="sub-skill">
-               <h3>Languages</h3>
-               <ul>
-                   <li>Python</li>
-                   <li>Java</li>
-                   <li>C</li>
-                   <li>Javascript</li>
-                   <li>HTML and CSS</li>
-               </ul>
+
+           <div id="intro">
+            <h1 class="ml11">
+              Hello, I am
+              <span class="text-wrapper">
+                <span class="line line1"></span>
+                    <span class="letters">Aashi Shah  </span>
+              </span>
+            </h1>
+
+              <p>An aspiring web developer and designer, trying to find her place in the world.</p>
            </div>
-           <div class="sub-skill">
-               <h3>Frameworks and libraries</h3>
-               <ul>
-                   <li>Node.js</li>
-                   <li>Express.js</li>
-                   <li>jQuery</li>
-               </ul>
-        	</div>
-           <div class="sub-skill">
-               <h3>Tools</h3>
-               <ul>
-                   <li>Adobe Photoshop</li>
-                   <li>Git</li>
-                   <li>Unity Engine</li>
-               </ul>
-        	</div>
-       </div>
-       </div>
-            <div class="hr"></div>
-       <div class="spacing">
-       <h1>Experience and Achievements</h1>
-           <div class="blockq">
-               <h4>Women TechMakers Engineering Fellow</h4>
-               <div class="dn">Jun 2019-Present</div>
-               <div class="txt">Learning as part of the Google supported WTEF program in association with Talentsprint. Selected out of 7000+ applicants in a 100 participant cohort.</div>
+          </div>
+
+           <div id="projects">
+            <h2 class="title">Projects</h2>
+            <ul>
+              <li>
+                <a href="https://github.com/aashishah/job-application-tracker">Janus - Job Application Tracker</a>
+                <p><span class="techstack">[Node.js, HTML/CSS, CockoachDB, Courier] </span>A chrome extension that scrapes the website that you are currently applying for a job through and stores information like role, company, location and url in a table that can be accessed as and when required. It is a job application tracker that does it's work in the click of a button.</p>
+              </li>
+              <li>
+                <a href="https://github.com/emilyws27/pickHacks2021">PlaySquared</a>
+                <p><span class="techstack">[MERN stack, bootstrap] </span>A web-based application aimed at helping to build the gaming community in a unique way. The app serves as a platform for gamers to share and link music playlists to specific video games. Users can create accounts, upload their own playlists, and view and access other users' playlists. Users are also able to search for playlists by videogame tag.</p>
+              </li>
+              <li>
+                <a href="">Automatic price checker and comparer</a>
+                <p><span class="techstack">[Python] </span>A python script that checks the price of an item across online shopping websites (Amazon, Snapdeal and Flipkart) and displays the cheapest price available among them all.</p>
+              </li>
            </div>
-           <div class="blockq">
-             <h4>E-Yantra Robotics Competition, IIT Bombay</h4>
-             <div class="dn">Sept 2019 - Jan 2020</div>
-             <div class="txt">Progressed to stage 2 of E-Yantra, built a robot using OpenCV (Python) and Arduino.</div>
+
+           <div id="experience">
+            <h2 class="title">Experience</h2>
+            <ul>
+              <li>
+                <h3>Software Engineering Intern - UWorld</h3>
+                <p>Currently working as a software engineer intern at UWorld.</p>
+              </li>
+              <li>
+                <h3>Women Engineers Program - Google, in association with TalentSprint </h3>
+                <p>Selected as a part of the 100 participants from 7500+ applicants and learned algorithms and data structures as well as writing clean code. ALso mentored several junior cohort students as a WE Buddy.</p>
+              </li>
+              <li>
+                <h3>Hackathons</h3>
+                <p>Participant at hackathons such as Local Hack Day (Build & Share), VueHacks, TOHacks, PickHacks '21(Winner) and TechTogether Seattle.</p>
+              </li>
            </div>
-           <div class="blockq">
-             <h4>Wolfram Award Recipient, Techtogether Seattle</h4>
-             <div class="dn">Jan 2021</div>
-             <div class="txt">Won an award for a web development project title "Wavelength" at the Techtogether Seattle Hackathon 2021.</div>
-           </div>
+
+
+           <div id="contact">
+              <h2 class="title">Find me on</h2>
+              <div id="cl">
+                 <a href="https://github.com/aashishah">Github</a><img src="images/line.png">
+                 <a href="http://www.linkedin.com/in/aashi-shah">LinkedIn</a><img src="images/line.png">
+                 <a href="https://dribbble.com/aashishah">Dribbble</a><img src="images/line.png">
+                 <a href="mailto:aashishah@protonmail.com">Mail</a>
+              </div>
+          </div>
        </div>
-       <div class="hr"></div>
-       <div class="spacing">
-       <h1>Recent Projects</h1>
-       <div class="projects">
-           <a href="https://aashishah.github.io/Color_Game/">
-               <div class="card">
-               <img src="images/projects/cg.PNG">
-               <div class="overlay">
-                   <div class="p-txt">Guessing the Color Game<br><span>Click to play.</span></div>
-               </div>
-               </div>
-           </a>
-           <a href="https://aashishah.github.io/PomodoroClock/">
-               <div class="card">
-               <img src="images/projects/pc.PNG">
-               <div class="overlay">
-                    <div class="p-txt">Pomodoro Clock<br><span>Click to Visit.</span></div>
-               </div>
-               </div>
-           </a>
-           <a href="https://aashishah.github.io/ToDoList/">
-               <div class="card">
-               <img src="images/projects/tdl.PNG">
-               <div class="overlay">
-                    <div class="p-txt">To-Do List App<br><span>Click to visit.</span></div>
-               </div>
-               </div>
-           </a><a href="https://aashishah.github.io/CodersWhoCook/">
-               <div class="card">
-               <img src="images/projects/cwc.PNG">
-               <div class="overlay">
-                    <div class="p-txt">HobbyHacks Hackathon Project<br><span>Click to visit.</span></div>
-               </div>
-               </div>
-           </a>
-            <a href="https://drive.google.com/file/d/1smOtSM6l5uIAvgpmJXaLsxGd--974PK1/view?usp=sharing">
-               <div class="card">
-               <img src="images/projects/aa.png">
-               <div class="overlay">
-                    <div class="p-txt">"Aerith's Adventure"<br>Game Development Project<br><span>Click to download the game.</span></div>
-               </div>
-               </div>
-           </a>
-           <a href="https://wave-length.space">
-               <div class="card">
-               <img src="./images/projects/wavelength.png">
-               <div class="overlay">
-                    <div class="p-txt">TechTogether Seattle Hack<br><span>Click to visit.</span></div>
-               </div>
-               </div>
-           </a>
-           
-           </div>
-       </div>
-       
-       <div class="hr"></div>
-       
-       <div class="spacing">
-       <h1>Education</h1>
-       <div class="blockq">
-           <h4>Bachelor of Technology</h4>
-           <div class="dn">Guru Nanak Institute of Technology | July 2017 - 2021</div>
-       </div>
-       <div class="blockq">
-           <h4>Intermediate</h4>
-           <div class="dn">Chinmaya Vidyalaya | CBSE | 2015 - 2017</div>
-           <div class="txt"></div>
-       </div>
-        <div class="blockq">
-           <h4>Xth Standard</h4>
-           <div class="dn">Chaitanya Vidyalaya | ICSE | 2015</div>
-           <div class="txt"></div>
-       </div>
-       </div>
-       
-       <div class="hr"></div>
-       
-      <div class="spacing">
-       <h1>Contact</h1>
-     <div class="contact"><span>Let's connect!</span>
-         <p>Please reach me on <a href="http://www.linkedin.com/in/aashi-shah">Linkedin</a> or through my e-mail: <a href="mailto:aashishah0475@gmail.com">aashishah0475@gmail.com</a>.</p>
-         </div>
-       </div>
-       <div class="footer">
-            <p>Created by Aashi Shah © 2020
-        </div>
-        </div>
+
+       <div class="container">
+  <div class="text"></div>
+</div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <script src="index.js"></script>
+
   </body>
 </html>

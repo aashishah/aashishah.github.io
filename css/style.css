@@ -106,7 +106,7 @@ button {
 
 #container-top {
     border: 8px solid #000;
-    margin: 20px 50px 20px 20px;
+    margin: 20px 30px 20px 20px;
     box-shadow: 18px 15px #000;
     background-color: #0F0F0F;
 }
@@ -126,12 +126,12 @@ p {
 }
 
 #projects{
-    margin: 4rem 50px 0px 10px;
+    margin: 4rem 30px 0px 10px;
     list-style-image: url("../images/list.png");
 }
 
 #experience{
-    margin: 2rem 50px 0px 10px;
+    margin: 2rem 30px 0px 10px;
     list-style-image: url("../images/list.png");
 }
 
@@ -157,7 +157,7 @@ h3{
 }
 
 #contact {
-    margin: 2rem 50px 0px 10px;
+    margin: 2rem 30px 0px 10px;
 }
 
 
